@@ -1,5 +1,5 @@
 #! /usr/bin/env nix-shell
-#! nix-shell -i python3.11 -p python311 python311Packages.pyserial python311Packages.pyqtgraph python311Packages.numpy
+#! nix-shell -i python3.11 -p python311 python311Packages.pyserial python311Packages.numpy python311Packages.plotext
 import socket
 import time, random, sys, select
 import serial
@@ -9,6 +9,7 @@ import threading
 import curses
 import tty
 import termios
+import plotext as plt
 
 class NonBlockingConsole(object):
 	def __enter__(self):
@@ -30,7 +31,7 @@ class ATK():
 		self.ser = serial.Serial(serport, "115200")
 		
 		self.rawBuf = deque()
-		self.rawBufLen = 100
+		self.rawBufLen = 5
 		self.running = False
 		self.lines = 0
 		self.lines_sec = 0
@@ -120,8 +121,18 @@ class ATK():
 	def lsb_to_v(self, code):
 		return ((self.v_ref * code) / self.adc_lsb)
 
+	def drv5055_v_to_mT(self, v, sens, offs):
+		return ((offs - v) * sens)
+
+	def drv5055_lsb_to_mT(self, code, sens, cal):
+		offs = 1.650+cal
+		return self.drv5055_v_to_mT(self.lsb_to_v(code), sens, offs)
+
 	def update_buf_len(self, len):
 		self.rawBufLen = len
+
+	def return_all_channels(self):
+		return self.rawBuf[-1]
 
 	def print_report(self, str2):
 		try:
@@ -140,6 +151,18 @@ class ATK():
 			print()
 		except:
 			pass
+
+	def return_channels(self, channels): # as int
+		try:
+			ret = []
+			if self.rawBuf[-1][channels[0]] != self.last_printed:
+				self.last_printed = self.rawBuf[-1][channels[0]]
+				for chan in channels:
+					ret.append(int(self.rawBuf[-1][chan]))
+				return list(ret)
+			return list([None]*len(channels))
+		except:
+			return list([None]*len(channels))
 
 	def print_channels(self, channels):
 		try:
@@ -164,9 +187,33 @@ menu = "\033[4mS\033[0mample Rate | \033[4mA\033[0mpply | \033[4mQ\033[0muit"
 print()
 
 with NonBlockingConsole() as nbc:
+	# ================ START USER SETUP ================
+	plt.title("Magnetic Flux Density")
+	plt.ylabel("mT")
+	plt.theme('mature')
+	mT = deque()
+	ts = deque()
+	mTlen = 220
 	while True:
+		# ================ START USER CODE ================
 		#toolkit.print_report(menu)
-		toolkit.print_channels([0, 6])
+
+		t, code = toolkit.return_channels([0, 1])
+		
+		if t != None:
+			mT.append(toolkit.drv5055_lsb_to_mT(code, 50, -0.06284))
+			ts.append(t/1000.0)
+			while len(mT) > mTlen:
+				mT.popleft()
+				ts.popleft()
+			#print("Timestamp:", round(ts, 1), "s,  Magnetic flux density:", round(mT, 2), "mT     ", end='\r')
+
+			plt.cld()
+
+			plt.plot(ts, mT)
+			plt.show()
+		
+		# ================ END USER CODE ================
 		inp = nbc.get_data()
 		if inp == 'S' or inp == 's':
 			#print('Sample Rate (1Hz - 100000Hz): ', end='')
