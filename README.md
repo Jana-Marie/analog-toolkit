@@ -1,7 +1,7 @@
 # analog-toolkit
 A small and simple STM32G431 based dev board, that doubles as analog-to-USB acquisition tool.
 
-Next to 6 single ended or 2 differential ADC inputs, there are 3 PGA connected ADC inputs, 3 general purpose IO, 2 Timer outputs, and severalprotocols such as UART, I2C, USB FS and USB-PD.
+Next to 6 single ended or 2 differential ADC inputs (upt to 16bit), there are 3 PGA connected ADC inputs (up to 16bits), 3 general purpose IO, 2 DAC outputs (up to 12bit), 2 Timer outputs, and severalprotocols such as UART, I2C, USB FS and USB-PD.
 Equiped with a DFU bootloader, this board can simply be flashed from USB. All Ports are available through standard 2.54mm pinheader, a scope aligator clip can be clipped to the grounding tab. A RGB led allows for direct status indication.
 
 <table>
