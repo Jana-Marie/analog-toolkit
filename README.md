@@ -22,8 +22,6 @@ Equiped with a DFU bootloader, this board can simply be flashed from USB. All Po
   </tbody>
 </table>
 
-Debugging can take place wie SWD and TagConnect.
-======
 ## folder structure
 ```
  /hardware          - PCB files
