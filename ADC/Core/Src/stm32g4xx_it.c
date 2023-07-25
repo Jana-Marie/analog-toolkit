@@ -60,8 +60,11 @@ extern PCD_HandleTypeDef hpcd_USB_FS;
 extern DMA_HandleTypeDef hdma_adc1;
 extern DMA_HandleTypeDef hdma_adc2;
 extern TIM_HandleTypeDef htim6;
+extern TIM_HandleTypeDef htim4;
 /* USER CODE BEGIN EV */
 extern void led_task(void);
+extern void adc_task(void);
+extern uint8_t adcDMAready;
 /* USER CODE END EV */
 
 /******************************************************************************/
@@ -217,6 +220,11 @@ void DMA1_Channel1_IRQHandler(void)
   /* USER CODE END DMA1_Channel1_IRQn 1 */
 }
 
+void TIM4_IRQHandler(void){
+  
+  HAL_TIM_IRQHandler(&htim4);
+}
+
 /**
   * @brief This function handles DMA1 channel2 global interrupt.
   */
@@ -237,7 +245,8 @@ void DMA1_Channel2_IRQHandler(void)
 void DMA1_Channel3_IRQHandler(void)
 {
   /* USER CODE BEGIN DMA1_Channel3_IRQn 0 */
-
+  adcDMAready |= 1;
+  adc_task();
   /* USER CODE END DMA1_Channel3_IRQn 0 */
   HAL_DMA_IRQHandler(&hdma_adc1);
   /* USER CODE BEGIN DMA1_Channel3_IRQn 1 */
@@ -251,7 +260,8 @@ void DMA1_Channel3_IRQHandler(void)
 void DMA1_Channel4_IRQHandler(void)
 {
   /* USER CODE BEGIN DMA1_Channel4_IRQn 0 */
-
+  adcDMAready |= 2;
+  adc_task();
   /* USER CODE END DMA1_Channel4_IRQn 0 */
   HAL_DMA_IRQHandler(&hdma_adc2);
   /* USER CODE BEGIN DMA1_Channel4_IRQn 1 */
