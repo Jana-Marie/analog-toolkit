@@ -40,7 +40,7 @@ class ATK():
 		self.last_broken_line = ''
 
 		self.adc_lsb = 4096 # lsb
-		self.v_ref = 3.3 # V
+		self.v_ref = 3300 # V
 
 		self.last_printed = 0
 
@@ -121,8 +121,29 @@ class ATK():
 	def lsb_to_v(self, code):
 		return ((self.v_ref * code) / self.adc_lsb)
 
+	def drv5055_get_amplification(self, voltage, code):
+		if voltage == 3.3 or voltage == 3300 or voltage == "3.3V":
+			if code == "A1" or code == "Z1":
+				return 60
+			if code == "A2" or code == "Z2":
+				return 30
+			if code == "A3" or code == "Z3":
+				return 15
+			if code == "A4" or code == "Z4":
+				return 7.5
+		if voltage == 5.0 or voltage == 5000 or voltage == "5V":
+			if code == "A1" or code == "Z1":
+				return 100
+			if code == "A2" or code == "Z2":
+				return 50
+			if code == "A3" or code == "Z3":
+				return 25
+			if code == "A4" or code == "Z4":
+				return 12.5
+		return 0
+
 	def drv5055_v_to_mT(self, v, sens, offs):
-		return ((offs - v) * sens)
+		return ((offs - v) / sens)
 
 	def drv5055_lsb_to_mT(self, code, sens, cal):
 		offs = 1.650+cal
@@ -133,6 +154,9 @@ class ATK():
 
 	def return_all_channels(self):
 		return self.rawBuf[-1]
+
+	def calibrate(self, chan, center):
+		return self.lsb_to_v(int(self.rawBuf[-1][chan])) - center
 
 	def print_report(self, str2):
 		try:
@@ -194,6 +218,7 @@ with NonBlockingConsole() as nbc:
 	mT = deque()
 	ts = deque()
 	mTlen = 220
+	cal = 0
 	while True:
 		# ================ START USER CODE ================
 		#toolkit.print_report(menu)
@@ -201,7 +226,7 @@ with NonBlockingConsole() as nbc:
 		t, code = toolkit.return_channels([0, 1])
 		
 		if t != None:
-			mT.append(toolkit.drv5055_lsb_to_mT(code, 50, -0.06284))
+			mT.append(toolkit.drv5055_lsb_to_mT(code, toolkit.drv5055_get_amplification("3.3V", "A1"), cal))
 			ts.append(t/1000.0)
 			while len(mT) > mTlen:
 				mT.popleft()
@@ -224,6 +249,8 @@ with NonBlockingConsole() as nbc:
 		elif inp == 'A' or inp == 'a':
 			#print('\r\033[KApplying', end='')
 			toolkit.apply_config()
+		elif inp == 'C' or inp == 'c':
+			cal = toolkit.calibrate(1, 1.650)
 		elif inp == 'Q' or inp == 'q':
 			#print('\r\033[KExit', end='')
 			toolkit.exit()
