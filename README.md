@@ -36,9 +36,12 @@ Equiped with a DFU bootloader, this board can simply be flashed from USB. All Po
  - [ ] improve ADC fw
    - [ ] add interactive python console (60% done)
    - [ ] PGA current and temperature sensing
+   - [ ] Implement byte stuffing
  - [ ] improve DAC fw
    - [ ] make sample rate settable
    - [ ] make sample settable
+ - [ ] Implement Sigrok protocol
+ - [ ] Implement SCPI
  - [x] USB-PD firmware
  
 ## license
