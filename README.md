@@ -28,21 +28,22 @@ Equiped with a DFU bootloader, this board can simply be flashed from USB. All Po
  /ADC               - ADC sampling firmware, with selectable samplerate and API
  /ADC/software      - python receiving sketch for ADC firmware
  /DAC/              - DAC firmware bit, this one doesn't do much yet
+ /pd-dev/           - USB-PD Sink firmware
 ```
 
 ## things I want to and explore
 
  - [ ] improve ADC fw
-  - [ ] add interactive python console (60% done)
-  - [ ] PGA current and temperature sensing
+   - [ ] add interactive python console (60% done)
+   - [ ] PGA current and temperature sensing
  - [ ] improve DAC fw
-  - [ ] make sample rate settable
-  - [ ] make sample settable
- - [ ] USB-PD firmware
+   - [ ] make sample rate settable
+   - [ ] make sample settable
+ - [x] USB-PD firmware
  
 ## license
  
-Copyright Jana Marie Hemsing 2023.
+Copyright Jana Marie Hemsing 2024.
 
 This source describes Open Hardware and is licensed under the CERN-OHL-S v2.
 
