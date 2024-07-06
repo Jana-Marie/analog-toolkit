@@ -33,3 +33,6 @@ gerber
 
 # fw
 build
+*.jdebug
+*.jdebug.user
+*.mxproject
