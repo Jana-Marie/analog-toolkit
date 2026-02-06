@@ -8388,7 +8388,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "100n"
+		(property "Value" "10n"
 			(at 210.82 146.05 90)
 			(effects
 				(font
@@ -8782,7 +8782,7 @@
 				)
 			)
 		)
-		(property "Value" "STM32G431xB"
+		(property "Value" "STM32G431KBT6"
 			(at 121.92 105.41 0)
 			(effects
 				(font
@@ -10761,7 +10761,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "100n"
+		(property "Value" "10n"
 			(at 208.28 146.05 90)
 			(effects
 				(font
@@ -10897,7 +10897,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "100n"
+		(property "Value" "10n"
 			(at 213.36 146.05 90)
 			(effects
 				(font
@@ -11707,7 +11707,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "100n"
+		(property "Value" "10n"
 			(at 203.2 146.05 90)
 			(effects
 				(font
@@ -12900,7 +12900,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "100n"
+		(property "Value" "10n"
 			(at 205.74 146.05 90)
 			(effects
 				(font
@@ -13699,7 +13699,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "100n"
+		(property "Value" "10n"
 			(at 200.66 146.05 90)
 			(effects
 				(font
@@ -13752,7 +13752,7 @@
 	)
 	(symbol
 		(lib_id "Device:LED_RGB")
-		(at 143.51 59.69 90)
+		(at 143.51 59.69 270)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -13761,25 +13761,25 @@
 		(fields_autoplaced yes)
 		(uuid "eb3af099-0096-43e7-b23a-c37889ce1f1d")
 		(property "Reference" "D1"
-			(at 152.4 58.4199 90)
+			(at 153.67 58.4199 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify right)
+				(justify left)
 			)
 		)
 		(property "Value" "LED_RGB"
-			(at 152.4 60.9599 90)
+			(at 153.67 60.9599 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify right)
+				(justify left)
 			)
 		)
 		(property "Footprint" "LED_SMD:LED_RGB_5050-6"
-			(at 144.78 59.69 0)
+			(at 142.24 59.69 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13788,7 +13788,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 144.78 59.69 0)
+			(at 142.24 59.69 0)
 			(effects
 				(font
 					(size 1.27 1.27)

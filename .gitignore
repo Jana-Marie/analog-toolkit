@@ -27,6 +27,7 @@ fp-info-cache
 # Exported BOM files
 *.xml
 *.csv
+/bom
 
 # gerber
 gerber
@@ -36,3 +37,6 @@ build
 *.jdebug
 *.jdebug.user
 *.mxproject
+
+# other
+*.DS_Store
