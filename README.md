@@ -1,8 +1,8 @@
 # analog-toolkit
-A small and simple STM32G431 based dev board, that doubles as analog-to-USB acquisition tool.
+A small and simple STM32G431 based dev board, doubling as a simple analog-to-USB acquisition tool.
 
-Next to 6 single ended or 2 differential ADC inputs (upt to 16bit), there are 3 PGA connected ADC inputs (up to 16bits), 3 general purpose IO, 2 DAC outputs (up to 12bit), 2 Timer outputs, and severalprotocols such as UART, I2C, USB FS and USB-PD.
-Equiped with a DFU bootloader, this board can simply be flashed from USB. All Ports are available through standard 2.54mm pinheader, a scope aligator clip can be clipped to the grounding tab. A RGB led allows for direct status indication.
+Next to 6 single ended or 2 differential ADC inputs, there are 3 PGA connected ADC channels, 3 general purpose IO, 2 DAC outputs, 2 Timer outputs, and several protocols such as UART, I2C, USB FS and USB-PD. All ADCs have a standard input resolution of 12 bits, with hardware oversampling up to 16 bits, the DAC has 12 bits resolution. 
+Equiped with a DFU bootloader, this board can simply be flashed from USB. All Ports are available through standard 2.54mm pinheader, a scope aligator clip can be attached to the grounding tab. A RGB led allows for direct status indication.
 
 <table>
   <tbody>
@@ -31,8 +31,19 @@ Equiped with a DFU bootloader, this board can simply be flashed from USB. All Po
  /pd-dev/           - USB-PD Sink firmware
 ```
 
-## things I want to and explore
+## things I want to do and explore
 
+ - HW
+ - [x] replace RGB led with two discrete LEDs
+ - [ ] cheaper JLC version, keep functionality
+   - [ ] button -> C720477
+   - [ ] LDO -> C14289
+   - [ ] USBLC -> C32677
+   - [ ] RGB LED -> two discrete, C34499, C2296
+ 
+ - SW/FW
+ - [ ] build CLI
+   - [ ] build basic CLI firmware
  - [ ] improve ADC fw
    - [ ] add interactive python console (60% done)
    - [ ] PGA current and temperature sensing
@@ -46,7 +57,7 @@ Equiped with a DFU bootloader, this board can simply be flashed from USB. All Po
  
 ## license
  
-Copyright Jana Marie Hemsing 2024.
+Copyright Jana Marie Hemsing 2026.
 
 This source describes Open Hardware and is licensed under the CERN-OHL-S v2.
 
