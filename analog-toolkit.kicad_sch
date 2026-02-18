@@ -2338,7 +2338,7 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "Regulator_Linear:AP2204R-3.3"
+		(symbol "Regulator_Linear:AP2204RA-3.3"
 			(pin_names
 				(offset 0.254)
 			)
@@ -2354,7 +2354,7 @@
 					(justify left)
 				)
 			)
-			(property "Value" "AP2204R-3.3"
+			(property "Value" "AP2204RA-3.3"
 				(at 0 3.175 0)
 				(effects
 					(font
@@ -2372,7 +2372,7 @@
 					(hide yes)
 				)
 			)
-			(property "Datasheet" "https://www.diodes.com/assets/Datasheets/AP2204.pdf"
+			(property "Datasheet" "https://www.diodes.com/assets/Datasheets/products_inactive_data/AP2204.pdf"
 				(at 0 0 0)
 				(effects
 					(font
@@ -2408,7 +2408,7 @@
 					(hide yes)
 				)
 			)
-			(symbol "AP2204R-3.3_0_1"
+			(symbol "AP2204RA-3.3_0_1"
 				(rectangle
 					(start -5.08 1.905)
 					(end 5.08 -5.08)
@@ -2421,7 +2421,7 @@
 					)
 				)
 			)
-			(symbol "AP2204R-3.3_1_1"
+			(symbol "AP2204RA-3.3_1_1"
 				(pin power_in line
 					(at -7.62 0 0)
 					(length 2.54)
@@ -2432,7 +2432,7 @@
 							)
 						)
 					)
-					(number "1"
+					(number "2"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -2450,7 +2450,7 @@
 							)
 						)
 					)
-					(number "2"
+					(number "1"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -7425,6 +7425,33 @@
 				(hide yes)
 			)
 		)
+		(property "JLCPCB" "C17168"
+			(at 236.22 130.81 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "lcsc" ""
+			(at 236.22 130.81 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "lscs" ""
+			(at 236.22 130.81 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "678130a0-1fbf-4c3c-80ce-08c32a6ae281")
 		)
@@ -7495,6 +7522,33 @@
 				(hide yes)
 			)
 		)
+		(property "JLCPCB" "C25905"
+			(at 64.77 144.78 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "lcsc" ""
+			(at 64.77 144.78 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "lscs" ""
+			(at 64.77 144.78 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "7f1e56fa-01ba-4851-8557-48e08cb20231")
 		)
@@ -7555,6 +7609,33 @@
 		)
 		(property "Description" ""
 			(at 236.22 133.35 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "JLCPCB" "C17168"
+			(at 236.22 133.35 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "lcsc" ""
+			(at 236.22 133.35 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "lscs" ""
+			(at 236.22 133.35 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7632,6 +7713,33 @@
 				(hide yes)
 			)
 		)
+		(property "JLCPCB" "C1525"
+			(at 66.04 115.57 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "lcsc" ""
+			(at 66.04 115.57 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "lscs" ""
+			(at 66.04 115.57 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "ef4e5ecf-5c83-4fd1-a364-350400c34d69")
 		)
@@ -7694,6 +7802,33 @@
 		)
 		(property "Description" ""
 			(at 212.09 139.7 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "JLCPCB" "C15195"
+			(at 212.09 139.7 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "lcsc" ""
+			(at 212.09 139.7 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "lscs" ""
+			(at 212.09 139.7 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8026,6 +8161,33 @@
 				(hide yes)
 			)
 		)
+		(property "JLCPCB" "C17477"
+			(at 63.5 39.37 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "lcsc" ""
+			(at 63.5 39.37 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "lscs" ""
+			(at 63.5 39.37 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "9f043293-c489-4520-92e6-be266ef8ad14")
 		)
@@ -8086,6 +8248,33 @@
 			)
 		)
 		(property "Description" ""
+			(at 123.19 138.43 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "JLCPCB" "C529357"
+			(at 123.19 138.43 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "lcsc" ""
+			(at 123.19 138.43 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "lscs" ""
 			(at 123.19 138.43 0)
 			(effects
 				(font
@@ -8383,6 +8572,33 @@
 				(hide yes)
 			)
 		)
+		(property "JLCPCB" "C19666"
+			(at 55.88 115.57 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "lcsc" ""
+			(at 55.88 115.57 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "lscs" ""
+			(at 55.88 115.57 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "a5aa1fb4-f50b-4dc9-be67-b3837df2d473")
 		)
@@ -8443,6 +8659,33 @@
 		)
 		(property "Description" ""
 			(at 78.74 120.65 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "JLCPCB" "C1002"
+			(at 78.74 120.65 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "lcsc" ""
+			(at 78.74 120.65 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "lscs" ""
+			(at 78.74 120.65 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8518,6 +8761,33 @@
 				(hide yes)
 			)
 		)
+		(property "JLCPCB" "C25768"
+			(at 152.4 44.45 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "lcsc" ""
+			(at 152.4 44.45 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "lscs" ""
+			(at 152.4 44.45 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "de6a0621-cbfb-4817-a453-2dd5e527a700")
 		)
@@ -8578,6 +8848,24 @@
 			)
 		)
 		(property "Description" ""
+			(at 261.62 54.61 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "lcsc" ""
+			(at 261.62 54.61 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "lscs" ""
 			(at 261.62 54.61 0)
 			(effects
 				(font
@@ -8661,6 +8949,33 @@
 			)
 		)
 		(property "Sim.Pins" "1=K 2=A"
+			(at 139.7 49.53 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "JLCPCB" "C34499"
+			(at 139.7 49.53 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "lcsc" ""
+			(at 139.7 49.53 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "lscs" ""
 			(at 139.7 49.53 0)
 			(effects
 				(font
@@ -8801,6 +9116,24 @@
 				(hide yes)
 			)
 		)
+		(property "lcsc" ""
+			(at 54.61 166.37 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "lscs" ""
+			(at 54.61 166.37 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "a3ceee33-8b3c-443b-b124-ce48b7cbc7f4")
 		)
@@ -8883,6 +9216,33 @@
 				(hide yes)
 			)
 		)
+		(property "JLCPCB" "C1525"
+			(at 78.74 114.3 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "lcsc" ""
+			(at 78.74 114.3 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "lscs" ""
+			(at 78.74 114.3 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "b7e21c7f-3e3b-42e5-86cd-9ccd0194bb64")
 		)
@@ -8943,6 +9303,33 @@
 		)
 		(property "Description" ""
 			(at 236.22 125.73 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "JLCPCB" "C17168"
+			(at 236.22 125.73 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "lcsc" ""
+			(at 236.22 125.73 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "lscs" ""
+			(at 236.22 125.73 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9075,6 +9462,24 @@
 		)
 		(property "Description" ""
 			(at 229.87 139.7 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "lcsc" ""
+			(at 229.87 139.7 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "lscs" ""
+			(at 229.87 139.7 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9277,6 +9682,24 @@
 				(hide yes)
 			)
 		)
+		(property "lcsc" ""
+			(at 232.41 139.7 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "lscs" ""
+			(at 232.41 139.7 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "4dce8a42-f744-4aca-a17e-642dc4b6e23d")
 		)
@@ -9337,6 +9760,24 @@
 		)
 		(property "Description" ""
 			(at 255.27 115.57 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "lcsc" ""
+			(at 255.27 115.57 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "lscs" ""
+			(at 255.27 115.57 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9478,6 +9919,24 @@
 				(hide yes)
 			)
 		)
+		(property "lcsc" ""
+			(at 222.25 139.7 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "lscs" ""
+			(at 222.25 139.7 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "27421b12-7593-4577-b74f-7401c42dac2c")
 		)
@@ -9540,6 +9999,33 @@
 			)
 		)
 		(property "Description" ""
+			(at 88.9 114.3 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "JLCPCB" "C1525"
+			(at 88.9 114.3 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "lcsc" ""
+			(at 88.9 114.3 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "lscs" ""
 			(at 88.9 114.3 0)
 			(effects
 				(font
@@ -10075,6 +10561,33 @@
 				(hide yes)
 			)
 		)
+		(property "JLCPCB" "C15195"
+			(at 209.55 139.7 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "lcsc" ""
+			(at 209.55 139.7 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "lscs" ""
+			(at 209.55 139.7 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "63fa8b15-5d6f-449c-adc2-db0b63f79945")
 		)
@@ -10135,6 +10648,33 @@
 		)
 		(property "Description" ""
 			(at 86.36 132.08 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "JLCPCB" "C1525"
+			(at 86.36 132.08 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "lcsc" ""
+			(at 86.36 132.08 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "lscs" ""
+			(at 86.36 132.08 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10211,6 +10751,33 @@
 				(hide yes)
 			)
 		)
+		(property "JLCPCB" "C15195"
+			(at 214.63 139.7 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "lcsc" ""
+			(at 214.63 139.7 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "lscs" ""
+			(at 214.63 139.7 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "6b6b3f45-1944-47f4-a515-c79399a07a66")
 		)
@@ -10278,6 +10845,24 @@
 				(hide yes)
 			)
 		)
+		(property "lcsc" ""
+			(at 242.57 115.57 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "lscs" ""
+			(at 242.57 115.57 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "83fafb59-9df5-442b-b3ad-e865204a59df")
 		)
@@ -10288,6 +10873,104 @@
 			(project "analog-toolkit"
 				(path "/752e3599-9e44-4e78-a391-a30d6d4deeae"
 					(reference "R17")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Regulator_Linear:AP2204RA-3.3")
+		(at 45.72 111.76 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "7b2e3ecc-1f1c-44d4-8791-925b9aff497a")
+		(property "Reference" "U1"
+			(at 45.72 105.41 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "AP2204RA-3.3"
+			(at 45.72 107.95 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Package_TO_SOT_SMD:SOT-89-3"
+			(at 45.72 106.045 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.diodes.com/assets/Datasheets/products_inactive_data/AP2204.pdf"
+			(at 45.72 111.76 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "150mA low dropout linear regulator, wide input voltage range, 3.3V fixed positive output, SOT-89-3 package"
+			(at 45.72 111.76 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "JLCPCB" "C14289"
+			(at 45.72 111.76 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "lcsc" ""
+			(at 45.72 111.76 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "lscs" ""
+			(at 45.72 111.76 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "3"
+			(uuid "16221d54-1fc7-4690-ab42-1ba754047a83")
+		)
+		(pin "1"
+			(uuid "3d66cbae-0647-4027-a42a-bd9ae9737c67")
+		)
+		(pin "2"
+			(uuid "3bca6911-08e9-4f74-b213-a64d96fbb170")
+		)
+		(instances
+			(project ""
+				(path "/752e3599-9e44-4e78-a391-a30d6d4deeae"
+					(reference "U1")
 					(unit 1)
 				)
 			)
@@ -10338,6 +11021,24 @@
 			)
 		)
 		(property "Description" ""
+			(at 261.62 27.94 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "lcsc" ""
+			(at 261.62 27.94 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "lscs" ""
 			(at 261.62 27.94 0)
 			(effects
 				(font
@@ -10746,6 +11447,24 @@
 				(hide yes)
 			)
 		)
+		(property "lcsc" ""
+			(at 219.71 139.7 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "lscs" ""
+			(at 219.71 139.7 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "3bf24e2c-de35-492e-8518-3f77fd361cf0")
 		)
@@ -10806,6 +11525,24 @@
 		)
 		(property "Description" ""
 			(at 250.19 115.57 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "lcsc" ""
+			(at 250.19 115.57 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "lscs" ""
+			(at 250.19 115.57 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10946,6 +11683,24 @@
 				(hide yes)
 			)
 		)
+		(property "lcsc" ""
+			(at 220.98 27.94 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "lscs" ""
+			(at 220.98 27.94 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "2a39743b-99a6-43e9-b7d7-c821dfd99ba7")
 		)
@@ -11021,6 +11776,33 @@
 				(hide yes)
 			)
 		)
+		(property "JLCPCB" "C15195"
+			(at 204.47 139.7 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "lcsc" ""
+			(at 204.47 139.7 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "lscs" ""
+			(at 204.47 139.7 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "90dadbf1-f241-4143-9b83-f811ea097a9b")
 		)
@@ -11088,6 +11870,33 @@
 				(hide yes)
 			)
 		)
+		(property "JLCPCB" "C17168"
+			(at 236.22 128.27 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "lcsc" ""
+			(at 236.22 128.27 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "lscs" ""
+			(at 236.22 128.27 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "ede458c2-21eb-48d8-920c-1af435c3e2d1")
 		)
@@ -11098,77 +11907,6 @@
 			(project "analog-toolkit"
 				(path "/752e3599-9e44-4e78-a391-a30d6d4deeae"
 					(reference "R14")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Regulator_Linear:AP2204R-3.3")
-		(at 45.72 111.76 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "9c74e211-20cc-4095-b1c8-83780a230763")
-		(property "Reference" "U1"
-			(at 45.72 104.14 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "AP2204R-3.3"
-			(at 45.72 106.68 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Package_TO_SOT_SMD:SOT-89-3"
-			(at 45.72 106.045 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://www.diodes.com/assets/Datasheets/AP2204.pdf"
-			(at 45.72 111.76 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 45.72 111.76 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "11a435ed-a58c-48fa-b3eb-ee9c16cbf775")
-		)
-		(pin "2"
-			(uuid "44f6bcd5-7260-4c21-8415-3756a13e1418")
-		)
-		(pin "3"
-			(uuid "3093120d-9ecf-4a43-ac85-6619e5220167")
-		)
-		(instances
-			(project "analog-toolkit"
-				(path "/752e3599-9e44-4e78-a391-a30d6d4deeae"
-					(reference "U1")
 					(unit 1)
 				)
 			)
@@ -11219,6 +11957,33 @@
 			)
 		)
 		(property "Description" ""
+			(at 90.17 46.99 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "JLCPCB" "C558418"
+			(at 90.17 46.99 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "lcsc" ""
+			(at 90.17 46.99 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "lscs" ""
 			(at 90.17 46.99 0)
 			(effects
 				(font
@@ -11301,6 +12066,33 @@
 			)
 		)
 		(property "Description" ""
+			(at 35.56 115.57 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "JLCPCB" "C19666"
+			(at 35.56 115.57 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "lcsc" ""
+			(at 35.56 115.57 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "lscs" ""
 			(at 35.56 115.57 0)
 			(effects
 				(font
@@ -11442,6 +12234,24 @@
 				(hide yes)
 			)
 		)
+		(property "lcsc" ""
+			(at 261.62 87.63 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "lscs" ""
+			(at 261.62 87.63 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "cff3f591-5a21-4e05-8745-6f0a39e17984")
 		)
@@ -11514,6 +12324,24 @@
 		)
 		(property "Description" ""
 			(at 224.79 139.7 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "lcsc" ""
+			(at 224.79 139.7 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "lscs" ""
+			(at 224.79 139.7 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11662,6 +12490,33 @@
 				(hide yes)
 			)
 		)
+		(property "JLCPCB" "C2296"
+			(at 139.7 44.45 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "lcsc" ""
+			(at 139.7 44.45 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "lscs" ""
+			(at 139.7 44.45 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "8f5ceb88-f502-44cd-9bc6-f5bc3cc7b337")
 		)
@@ -11794,6 +12649,33 @@
 				(hide yes)
 			)
 		)
+		(property "JLCPCB" "C25768"
+			(at 152.4 49.53 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "lcsc" ""
+			(at 152.4 49.53 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "lscs" ""
+			(at 152.4 49.53 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "317daca7-0575-430c-af32-f6850375d9aa")
 		)
@@ -11861,6 +12743,24 @@
 				(hide yes)
 			)
 		)
+		(property "lcsc" ""
+			(at 219.71 116.84 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "lscs" ""
+			(at 219.71 116.84 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "bbcf8f9a-89b7-4019-955f-347ae0435132")
 		)
@@ -11921,6 +12821,24 @@
 			)
 		)
 		(property "Description" ""
+			(at 271.78 125.73 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "lcsc" ""
+			(at 271.78 125.73 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "lscs" ""
 			(at 271.78 125.73 0)
 			(effects
 				(font
@@ -12002,7 +12920,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Button_Switch_SMD:SW_SPST_PTS810"
+		(property "Footprint" "Button_Switch_SMD:SW_SPST_TS-1088-xR020"
 			(at 59.69 134.62 0)
 			(effects
 				(font
@@ -12022,6 +12940,33 @@
 		)
 		(property "Description" ""
 			(at 64.77 134.62 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "JLCPCB" "C720477"
+			(at 64.77 134.62 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "lcsc" ""
+			(at 64.77 134.62 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "lscs" ""
+			(at 64.77 134.62 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12226,6 +13171,33 @@
 				(hide yes)
 			)
 		)
+		(property "JLCPCB" "C15195"
+			(at 207.01 139.7 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "lcsc" ""
+			(at 207.01 139.7 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "lscs" ""
+			(at 207.01 139.7 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "9bbc788c-89d9-4ffe-9888-80c6bf38e176")
 		)
@@ -12286,6 +13258,33 @@
 			)
 		)
 		(property "Description" ""
+			(at 45.72 54.61 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "JLCPCB" "C165948"
+			(at 45.72 54.61 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "lcsc" ""
+			(at 45.72 54.61 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "lscs" ""
 			(at 45.72 54.61 0)
 			(effects
 				(font
@@ -12399,6 +13398,24 @@
 			)
 		)
 		(property "Description" ""
+			(at 261.62 69.85 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "lcsc" ""
+			(at 261.62 69.85 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "lscs" ""
 			(at 261.62 69.85 0)
 			(effects
 				(font
@@ -12614,6 +13631,24 @@
 				(hide yes)
 			)
 		)
+		(property "lcsc" ""
+			(at 245.11 115.57 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "lscs" ""
+			(at 245.11 115.57 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "d82b6c8b-2623-4f6a-a298-a57f5adc651c")
 		)
@@ -12681,6 +13716,24 @@
 				(hide yes)
 			)
 		)
+		(property "lcsc" ""
+			(at 227.33 139.7 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "lscs" ""
+			(at 227.33 139.7 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "7d5a48c3-6a68-46ac-af03-9f76795dfc65")
 		)
@@ -12741,6 +13794,24 @@
 			)
 		)
 		(property "Description" ""
+			(at 261.62 40.64 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "lcsc" ""
+			(at 261.62 40.64 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "lscs" ""
 			(at 261.62 40.64 0)
 			(effects
 				(font
@@ -12822,6 +13893,33 @@
 				(hide yes)
 			)
 		)
+		(property "JLCPCB" "C17168"
+			(at 236.22 123.19 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "lcsc" ""
+			(at 236.22 123.19 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "lscs" ""
+			(at 236.22 123.19 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "69de65b4-ed6e-41de-b091-f6640e8a157e")
 		)
@@ -12882,6 +13980,24 @@
 		)
 		(property "Description" ""
 			(at 247.65 115.57 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "lcsc" ""
+			(at 247.65 115.57 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "lscs" ""
+			(at 247.65 115.57 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12956,6 +14072,24 @@
 				(hide yes)
 			)
 		)
+		(property "lcsc" ""
+			(at 252.73 115.57 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "lscs" ""
+			(at 252.73 115.57 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "f5226b4e-98fd-43ae-bf46-6f67d1ff5a4a")
 		)
@@ -13018,6 +14152,33 @@
 		)
 		(property "Description" ""
 			(at 201.93 139.7 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "JLCPCB" "C15195"
+			(at 201.93 139.7 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "lcsc" ""
+			(at 201.93 139.7 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "lscs" ""
+			(at 201.93 139.7 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13095,6 +14256,33 @@
 				(hide yes)
 			)
 		)
+		(property "JLCPCB" "C1525"
+			(at 88.9 123.19 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "lcsc" ""
+			(at 88.9 123.19 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "lscs" ""
+			(at 88.9 123.19 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "1e709447-a09f-408d-914c-82a60c693274")
 		)
@@ -13155,6 +14343,33 @@
 		)
 		(property "Description" ""
 			(at 236.22 120.65 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "JLCPCB" "C17168"
+			(at 236.22 120.65 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "lcsc" ""
+			(at 236.22 120.65 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "lscs" ""
+			(at 236.22 120.65 90)
 			(effects
 				(font
 					(size 1.27 1.27)
