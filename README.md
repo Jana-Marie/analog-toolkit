@@ -33,15 +33,13 @@ Equiped with a DFU bootloader, this board can simply be flashed from USB. All Po
 
 ## things I want to do and explore
 
- - HW
+#### HW
+
  - [x] replace RGB led with two discrete LEDs
- - [ ] cheaper JLC version, keep functionality
-   - [ ] button -> C720477
-   - [ ] LDO -> C14289
-   - [ ] USBLC -> C32677
-   - [ ] RGB LED -> two discrete, C34499, C2296
+ - [x] cheaper JLC version, keep functionality
  
- - SW/FW
+#### SW/FW
+
  - [ ] build CLI
    - [ ] build basic CLI firmware
  - [ ] improve ADC fw
