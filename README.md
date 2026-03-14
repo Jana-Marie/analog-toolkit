@@ -1,3 +1,5 @@
+# permanently moved to [codeberg/analog-toolkit](https://codeberg.org/analog-toolkit)
+
 # analog-toolkit
 A small and simple STM32G431 based dev board, doubling as a simple analog-to-USB acquisition tool.
 
